@@ -3,47 +3,179 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Bootstrap CDN">
+    <meta name="author" content="Justin Dorfman">
 
-    <title>Glyphicons for Bootstrap</title>
+    <title>Bootstrap CDN</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/docs.css" rel="stylesheet">
 
-    <!-- Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-146052-11', 'getbootstrap.com');
-      ga('send', 'pageview');
-    </script>
   </head>
 
   <body>
 
     <div class="jumbotron">
       <div class="container">
-        <span class="glyphicon glyphicon-globe"></span>
         <h1>Bootstrap CDN</h1>
-        <p>The recommended CDN for Bootstrap, <a href="http://FontAwesome.io" target="_blank">FontAwesome</a>, and Bootswatch.</p>
-			<ul class="nav nav-tabs nav-justified">
-				<li class="active"><a href="#">Home</li>
-				<li><a href="#">Foo</li>
-			</ul>
+        <p>The recommended CDN for <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>, <a href="http://FontAwesome.io" target="_blank">FontAwesome</a>, and <a href="http://bootswatch.com">Bootswatch</a>.</p>
+		
+			<div class="tabbable">
+				<ul class="nav nav-tabs">
+					<li class="active"><a data-toggle="tab" href="#quickstart">QuickStart</a></li>
+					<li><a data-toggle="tab" href="#fontawesome"><i class="icon-flag"></i> Font Awesome</a></li>
+					<li><a data-toggle="tab" href="#bootswatch">Bootswatch</a></li>
+					<li><a data-toggle="tab" href="#legacy">Legacy</a></li>
+				</ul>
+			</div>
+<div class="tab-content">
+<!-- Quick Start -->
+<div id="quickstart" class="tab-pane active">
 
+<div class="label-container"><span class="label">Complete CSS</span></div>
+<p><input value="&lt;link href=&quot;//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;" class="inputs"></p>
+<div class="label-container"><span class="label">Complete JavaScript</span></div>
+<p><input value="&lt;script src=&quot;//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;" class="inputs"></p>
+<div class="label-container"><span class="label">Glyphicons</span></div>
+<p><input value="&lt;link href=&quot;//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css&quot; rel=&quot;stylesheet&quot;&gt;" class="inputs"></p>
+<br/>
+</div>
+<!-- Font Awesome -->
+<div id="fontawesome" class="tab-pane">
+<div class="label-container"><span class="label">Complete CSS</span></div>
+<p><input value="&lt;link href=&quot;//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot;&gt;" class="inputs"></p>
+<br/></div>
+<!-- Legacy -->
+<div id="legacy" class="tab-pane">
+<div id="quickstart" class="tab-pane">
 
+<div class="label-container"><span class="label label-info">2.3.2</span></div>
+<div class="label-container"><span class="label">Complete CSS (Responsive, With Icons)</span></div>
+<p><input value="&lt;link href=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css&quot; rel=&quot;stylesheet&quot;&gt;" class="inputs"></p>
+<div class="label-container"><span class="label">Complete JavaScript</span></div>
+<p><input value="&lt;script src=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;" class="inputs"></p>
+<div class="label-container"><span class="label">Complete Bootstrap CSS (Without Icons)</span></div>
+<p><input value="&lt;link href=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css&quot; rel=&quot;stylesheet&quot;&gt;" class="inputs"></p>
+<div class="label-container"><span class="label label-info">2.3.1</span></div>
+<div class="label-container"><span class="label">Complete CSS (Responsive, With Icons)</span></div>
+<p><input value="&lt;link href=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css&quot; rel=&quot;stylesheet&quot;&gt;" class="inputs"></p>
+<div class="label-container"><span class="label">Complete JavaScript</span></div>
+<p><input value="&lt;script src=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;" class="inputs"></p>
+<hr>
+<div class="label-container"><span class="label label-info">2.3.0</span></div>
+<div class="label-container"><span class="label">Complete CSS (Responsive, With Icons)</span></div>
+<p><input value="&lt;link href=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css&quot; rel=&quot;stylesheet&quot;&gt;" class="inputs"></p>
+<div class="label-container"><span class="label">Complete JavaScript</span></div>
+<p><input value="&lt;script src=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;" class="inputs"></p>
+<hr>
+<div class="label-container"><span class="label label-info">2.2.2</span></div>
+<div class="label-container"><span class="label">Complete CSS (Responsive, With Icons)</span></div>
+<p><input value="&lt;link href=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css&quot; rel=&quot;stylesheet&quot;&gt;" class="inputs"></p>
+<div class="label-container"><span class="label">Complete CSS (Not Responsive, With Icons)</span></div>
+<p><input value="&lt;link href=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap.min.nr.css&quot; rel=&quot;stylesheet&quot;&gt;" class="inputs"></p>
+<div class="label-container"><span class="label">Complete JavaScript</span></div>
+<p><input value="&lt;script src=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;" class="inputs"></p>
+<hr>
+<div class="label-container"><span class="label label-info">2.2.1</span></div>
+<div class="label-container"><span class="label">Complete CSS (Responsive, With Icons)</span></div>
+<p><input value="&lt;link href=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css&quot; rel=&quot;stylesheet&quot;&gt;" class="inputs"></p>
+<div class="label-container"><span class="label">Complete JavaScript</span></div>
+<p><input value="&lt;script src=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;" class="inputs"></p>
+<hr>
+<div class="label-container"><span class="label label-info">2.2.0</span></div>
+<div class="label-container"><span class="label">Complete CSS (Responsive, With Icons)</span></div>
+<p><input value="&lt;link href=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.0/css/bootstrap-combined.min.css&quot; rel=&quot;stylesheet&quot;&gt;" class="inputs"></p>
+<div class="label-container"><span class="label">Complete JavaScript</span></div>
+<p><input value="&lt;script src=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.0/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;" class="inputs"></p>
+<hr>
+<div class="label-container"><span class="label label-info">2.1.1</span></div>
+<div class="label-container"><span class="label">Complete CSS (Responsive, With Icons)</span></div>
+<p><input value="&lt;link href=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap-combined.min.css&quot; rel=&quot;stylesheet&quot;&gt;" class="inputs"></p>
+<div class="label-container"><span class="label">Complete JavaScript</span></div>
+<p><input value="&lt;script src=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;" class="inputs"></p>
+<hr>
+<div class="label-container"><span class="label label-info">2.1.0</span></div>
+<div class="label-container"><span class="label">Complete CSS (With Icons)</span></div>
+<p><input value="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/css/bootstrap-combined.min.css" class="inputs"></p>
+<div class="label-container"><span class="label">Complete JavaScript</span></div>
+<p><input value="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/js/bootstrap.min.js" class="inputs"></p>
+<br/></div>
+<div class="label-container"><span class="label label-important">2.0.4</span></div>
+<div class="label-container"><span class="label">Complete CSS</span></div>
+<p><input value="//netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/css/bootstrap-combined.min.css" class="inputs"></p>
+<div class="label-container"><span class="label">Complete JavaScript</span></div>
+<p><input value="//netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/js/bootstrap.min.js" class="inputs"></p>
+</div>
+<!-- Bootswatch -->
+<div id="bootswatch" class="tab-pane">
+<div class="row-fluid bootstop">
+<h4 style="color:#999;"><br>Bootstrap themes courtesy of <a target="_blank" href="http://bootswatch.com">Bootswatch</a>.</h4>
+<div class="span4">
+<div><a target="_blank" href="http://bootswatch.com/amelia/"><img src="http://bootswatch.com/amelia/thumbnail.png"></a></div>
+<p><input value="//netdna.bootstrapcdn.com/bootswatch/2.3.2/amelia/bootstrap.min.css" class="bootswatch"></p>
+</div>
+<div class="span4">
+<div><a target="_blank" href="http://bootswatch.com/cerulean/"><img src="http://bootswatch.com/cerulean/thumbnail.png"></a></div>
+<p><input value="//netdna.bootstrapcdn.com/bootswatch/2.3.2/cerulean/bootstrap.min.css" class="bootswatch"></p>
+</div>
 
-        <a href="https://github.com/twbs/bootstrap-glyphicons/archive/gh-pages.zip" class="btn btn-outline btn-large" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Download', 'Download 1.0.0']);">Download from GitHub</a>
+</div>
+<div class="row-fluid">
+<div class="span4">
+<div><a target="_blank" href="http://bootswatch.com/cosmo/"><img src="http://bootswatch.com/cosmo/thumbnail.png"></a></div>
+<p><input value="//netdna.bootstrapcdn.com/bootswatch/2.3.2/cosmo/bootstrap.min.css" class="bootswatch"></p>
+</div>
+<div class="span4">
+<div><a target="_blank" href="http://bootswatch.com/cyborg/"><img src="http://bootswatch.com/cyborg/thumbnail.png"></a></div>
+<p><input value="//netdna.bootstrapcdn.com/bootswatch/2.3.2/cyborg/bootstrap.min.css" class="bootswatch"></p>
+</div>
+<div class="span4">
+<div><a target="_blank" href="http://bootswatch.com/flatly/"><img src="http://bootswatch.com/flatly/thumbnail.png"></a></div>
+<p><input value="//netdna.bootstrapcdn.com/bootswatch/2.3.2/flatly/bootstrap.min.css" class="bootswatch"></p>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span4">
+<div><a target="_blank" href="http://bootswatch.com/journal/"><img src="http://bootswatch.com/journal/thumbnail.png"></a></div>
+<p><input value="//netdna.bootstrapcdn.com/bootswatch/2.3.2/journal/bootstrap.min.css" class="bootswatch"></p>
+</div>
+<div class="span4">
+<div><a target="_blank" href="http://bootswatch.com/readable/"><img src="http://bootswatch.com/readable/thumbnail.png"></a></div>
+<p><input value="//netdna.bootstrapcdn.com/bootswatch/2.3.2/readable/bootstrap.min.css" class="bootswatch"></p>
+</div>
+<div class="span4">
+<div><a target="_blank" href="http://bootswatch.com/simplex/"><img src="http://bootswatch.com/simplex/thumbnail.png"></a></div>
+<p><input value="//netdna.bootstrapcdn.com/bootswatch/2.3.2/simplex/bootstrap.min.css" class="bootswatch"></p>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span4">
+<div><a target="_blank" href="http://bootswatch.com/slate/"><img src="http://bootswatch.com/slate/thumbnail.png"></a></div>
+<p><input value="//netdna.bootstrapcdn.com/bootswatch/2.3.2/slate/bootstrap.min.css" class="bootswatch"></p>
+</div>
+<div class="span4">
+<div><a target="_blank" href="http://bootswatch.com/spacelab/"><img src="http://bootswatch.com/spacelab/thumbnail.png"></a></div>
+<p><input value="//netdna.bootstrapcdn.com/bootswatch/2.3.2/spacelab/bootstrap.min.css" class="bootswatch"></p>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span4">
+<div><a target="_blank" href="http://bootswatch.com/united/"><img src="http://bootswatch.com/united/thumbnail.png"></a></div>
+<p><input value="//netdna.bootstrapcdn.com/bootswatch/2.3.2/united/bootstrap.min.css" class="bootswatch"></p>
+</div>
+</div>
+</div>
+</div>
+
+       
         <ul class="jumbotron-links">
           <li>
-            <a href="http://github.com/twbs/bootstrap-glyphicons" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Jumbotron links', 'GitHub project']);">GitHub project</a>
+            <a href="http://github.com/netdna/bootstrap-cdn" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Jumbotron links', 'GitHub project']);">GitHub project</a>
           </li>
           <li>
             <a href="http://getbootstrap.com" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Jumbotron links', 'Bootstrap']);">Bootstrap</a>
@@ -51,201 +183,22 @@
           <li>
             <a href="http://expo.getbootstrap.com" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Jumbotron links', 'Expo']);">Bootstrap Expo</a>
           </li>
-          <li>Version 1.0.0</li>
+          <li>Powered by <a href="http://www.maxcdn.com">MaxCDN</a></li>
         </ul>
       </div>
     </div>
 
     <div class="container">
 
-      <div class="the-icons">
-        <span class="glyphicon glyphicon-glass"></span>
-        <span class="glyphicon glyphicon-music"></span>
-        <span class="glyphicon glyphicon-search"></span>
-        <span class="glyphicon glyphicon-envelope"></span>
-        <span class="glyphicon glyphicon-heart"></span>
-        <span class="glyphicon glyphicon-star"></span>
-        <span class="glyphicon glyphicon-star-empty"></span>
-        <span class="glyphicon glyphicon-user"></span>
-        <span class="glyphicon glyphicon-film"></span>
-        <span class="glyphicon glyphicon-th-large"></span>
-        <span class="glyphicon glyphicon-th"></span>
-        <span class="glyphicon glyphicon-th-list"></span>
-        <span class="glyphicon glyphicon-ok"></span>
-        <span class="glyphicon glyphicon-remove"></span>
-        <span class="glyphicon glyphicon-zoom-in"></span>
-        <span class="glyphicon glyphicon-zoom-out"></span>
-        <span class="glyphicon glyphicon-off"></span>
-        <span class="glyphicon glyphicon-signal"></span>
-        <span class="glyphicon glyphicon-cog"></span>
-        <span class="glyphicon glyphicon-trash"></span>
-        <span class="glyphicon glyphicon-home"></span>
-        <span class="glyphicon glyphicon-file"></span>
-        <span class="glyphicon glyphicon-time"></span>
-        <span class="glyphicon glyphicon-road"></span>
-        <span class="glyphicon glyphicon-download-alt"></span>
-        <span class="glyphicon glyphicon-download"></span>
-        <span class="glyphicon glyphicon-upload"></span>
-        <span class="glyphicon glyphicon-inbox"></span>
-
-        <span class="glyphicon glyphicon-play-circle"></span>
-        <span class="glyphicon glyphicon-repeat"></span>
-        <span class="glyphicon glyphicon-refresh"></span>
-        <span class="glyphicon glyphicon-list-alt"></span>
-        <span class="glyphicon glyphicon-lock"></span>
-        <span class="glyphicon glyphicon-flag"></span>
-        <span class="glyphicon glyphicon-headphones"></span>
-        <span class="glyphicon glyphicon-volume-off"></span>
-        <span class="glyphicon glyphicon-volume-down"></span>
-        <span class="glyphicon glyphicon-volume-up"></span>
-        <span class="glyphicon glyphicon-qrcode"></span>
-        <span class="glyphicon glyphicon-barcode"></span>
-        <span class="glyphicon glyphicon-tag"></span>
-        <span class="glyphicon glyphicon-tags"></span>
-        <span class="glyphicon glyphicon-book"></span>
-        <span class="glyphicon glyphicon-bookmark"></span>
-        <span class="glyphicon glyphicon-print"></span>
-        <span class="glyphicon glyphicon-camera"></span>
-        <span class="glyphicon glyphicon-font"></span>
-        <span class="glyphicon glyphicon-bold"></span>
-        <span class="glyphicon glyphicon-italic"></span>
-        <span class="glyphicon glyphicon-text-height"></span>
-        <span class="glyphicon glyphicon-text-width"></span>
-        <span class="glyphicon glyphicon-align-left"></span>
-        <span class="glyphicon glyphicon-align-center"></span>
-        <span class="glyphicon glyphicon-align-right"></span>
-        <span class="glyphicon glyphicon-align-justify"></span>
-        <span class="glyphicon glyphicon-list"></span>
-
-        <span class="glyphicon glyphicon-indent-left"></span>
-        <span class="glyphicon glyphicon-indent-right"></span>
-        <span class="glyphicon glyphicon-facetime-video"></span>
-        <span class="glyphicon glyphicon-picture"></span>
-        <span class="glyphicon glyphicon-pencil"></span>
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span class="glyphicon glyphicon-adjust"></span>
-        <span class="glyphicon glyphicon-tint"></span>
-        <span class="glyphicon glyphicon-edit"></span>
-        <span class="glyphicon glyphicon-share"></span>
-        <span class="glyphicon glyphicon-check"></span>
-        <span class="glyphicon glyphicon-move"></span>
-        <span class="glyphicon glyphicon-step-backward"></span>
-        <span class="glyphicon glyphicon-fast-backward"></span>
-        <span class="glyphicon glyphicon-backward"></span>
-        <span class="glyphicon glyphicon-play"></span>
-        <span class="glyphicon glyphicon-pause"></span>
-        <span class="glyphicon glyphicon-stop"></span>
-        <span class="glyphicon glyphicon-forward"></span>
-        <span class="glyphicon glyphicon-fast-forward"></span>
-        <span class="glyphicon glyphicon-step-forward"></span>
-        <span class="glyphicon glyphicon-eject"></span>
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="glyphicon glyphicon-plus-sign"></span>
-        <span class="glyphicon glyphicon-minus-sign"></span>
-        <span class="glyphicon glyphicon-remove-sign"></span>
-        <span class="glyphicon glyphicon-ok-sign"></span>
-
-        <span class="glyphicon glyphicon-question-sign"></span>
-        <span class="glyphicon glyphicon-info-sign"></span>
-        <span class="glyphicon glyphicon-screenshot"></span>
-        <span class="glyphicon glyphicon-remove-circle"></span>
-        <span class="glyphicon glyphicon-ok-circle"></span>
-        <span class="glyphicon glyphicon-ban-circle"></span>
-        <span class="glyphicon glyphicon-arrow-left"></span>
-        <span class="glyphicon glyphicon-arrow-right"></span>
-        <span class="glyphicon glyphicon-arrow-up"></span>
-        <span class="glyphicon glyphicon-arrow-down"></span>
-        <span class="glyphicon glyphicon-share-alt"></span>
-        <span class="glyphicon glyphicon-resize-full"></span>
-        <span class="glyphicon glyphicon-resize-small"></span>
-        <span class="glyphicon glyphicon-plus"></span>
-        <span class="glyphicon glyphicon-minus"></span>
-        <span class="glyphicon glyphicon-asterisk"></span>
-        <span class="glyphicon glyphicon-exclamation-sign"></span>
-        <span class="glyphicon glyphicon-gift"></span>
-        <span class="glyphicon glyphicon-leaf"></span>
-        <span class="glyphicon glyphicon-fire"></span>
-        <span class="glyphicon glyphicon-eye-open"></span>
-        <span class="glyphicon glyphicon-eye-close"></span>
-        <span class="glyphicon glyphicon-warning-sign"></span>
-        <span class="glyphicon glyphicon-plane"></span>
-        <span class="glyphicon glyphicon-calendar"></span>
-        <span class="glyphicon glyphicon-random"></span>
-        <span class="glyphicon glyphicon-comment"></span>
-        <span class="glyphicon glyphicon-magnet"></span>
-
-        <span class="glyphicon glyphicon-chevron-up"></span>
-        <span class="glyphicon glyphicon-chevron-down"></span>
-        <span class="glyphicon glyphicon-retweet"></span>
-        <span class="glyphicon glyphicon-shopping-cart"></span>
-        <span class="glyphicon glyphicon-folder-close"></span>
-        <span class="glyphicon glyphicon-folder-open"></span>
-        <span class="glyphicon glyphicon-resize-vertical"></span>
-        <span class="glyphicon glyphicon-resize-horizontal"></span>
-        <span class="glyphicon glyphicon-hdd"></span>
-        <span class="glyphicon glyphicon-bullhorn"></span>
-        <span class="glyphicon glyphicon-bell"></span>
-        <span class="glyphicon glyphicon-certificate"></span>
-        <span class="glyphicon glyphicon-thumbs-up"></span>
-        <span class="glyphicon glyphicon-thumbs-down"></span>
-        <span class="glyphicon glyphicon-hand-right"></span>
-        <span class="glyphicon glyphicon-hand-left"></span>
-        <span class="glyphicon glyphicon-hand-up"></span>
-        <span class="glyphicon glyphicon-hand-down"></span>
-        <span class="glyphicon glyphicon-circle-arrow-right"></span>
-        <span class="glyphicon glyphicon-circle-arrow-left"></span>
-        <span class="glyphicon glyphicon-circle-arrow-up"></span>
-        <span class="glyphicon glyphicon-circle-arrow-down"></span>
-        <span class="glyphicon glyphicon-globe"></span>
-        <span class="glyphicon glyphicon-wrench"></span>
-        <span class="glyphicon glyphicon-tasks"></span>
-        <span class="glyphicon glyphicon-filter"></span>
-        <span class="glyphicon glyphicon-briefcase"></span>
-        <span class="glyphicon glyphicon-fullscreen"></span>
-
-        <span class="glyphicon glyphicon-dashboard"></span>
-        <span class="glyphicon glyphicon-paperclip"></span>
-        <span class="glyphicon glyphicon-heart-empty"></span>
-        <span class="glyphicon glyphicon-link"></span>
-        <span class="glyphicon glyphicon-phone"></span>
-        <span class="glyphicon glyphicon-pushpin"></span>
-        <span class="glyphicon glyphicon-euro"></span>
-        <span class="glyphicon glyphicon-usd"></span>
-        <span class="glyphicon glyphicon-gbp"></span>
-        <span class="glyphicon glyphicon-sort"></span>
-        <span class="glyphicon glyphicon-sort-by-alphabet"></span>
-        <span class="glyphicon glyphicon-sort-by-alphabet-alt"></span>
-        <span class="glyphicon glyphicon-sort-by-order"></span>
-        <span class="glyphicon glyphicon-sort-by-order-alt"></span>
-        <span class="glyphicon glyphicon-sort-by-attributes"></span>
-        <span class="glyphicon glyphicon-sort-by-attributes-alt"></span>
-        <span class="glyphicon glyphicon-unchecked"></span>
-        <span class="glyphicon glyphicon-expand"></span>
-        <span class="glyphicon glyphicon-collapse"></span>
-        <span class="glyphicon glyphicon-collapse-top"></span>
-      </div>
 
     </div><!-- /.container -->
 
     <div class="how-to">
       <div class="container">
-        <h2>How to use</h2>
-        <ol>
-          <li>
-            Include the fonts
-            <p>Copy over all the font files to a <code>/fonts</code> directory near your CSS.</p>
-          </li>
-          <li>
-            Include the CSS or LESS
-            <p>You have two options for enabling the fonts in your project: vanilla CSS or source LESS. For vanilla CSS, just include the compiled CSS file from the <code>/css</code> in the repository.</p>
-            <p>For LESS, copy over the .less files from <code>/less</code> into your existing Bootstrap directory. Then import it into <code>bootstrap.less</code> via <code>@import "bootstrap-glyphicons.less";</code>. Recompile when ready.</p>
-          </li>
-          <li>
-            Add some icons!
-            <p>After you've added the fonts and CSS, you can get to using the icons. For example, <code>&lt;span class="glyphicon glyphicon-ok"&gt;&lt;/span&gt;</code>.</p>
-          </li>
-        </ol>
+        <h2>Mad Love:</h2>
+       <div align="center" class="row-fluid">
+	   <div><div><blockquote class="twitter-tweet"><p>if you're looking for a CDN to host @<a href="https://twitter.com/twbootstrap">twbootstrap</a>, the folks at @<a href="https://twitter.com/netdnadeveloper">netdnadeveloper</a> have graciously provided a free one <a href="http://t.co/MsH8NBJ1" title="http://www.bootstrapcdn.com/">bootstrapcdn.com</a></p>—Twitter Open Source (@TwitterOSS) <a href="https://twitter.com/TwitterOSS/status/233235680166293504" data-datetime="2012-08-08T16:18:14+00:00">August 8, 2012</a></blockquote></div><blockquote class="twitter-tweet"><p>It's really cool to see the bootstrap community step up with projects like this.<a href="http://t.co/YLVWCevr" title="http://www.bootstrapcdn.com/">bootstrapcdn.com</a> <3</p>—♒∆✝ (@fat) <a href="https://twitter.com/fat/status/230014001256464384" data-datetime="2012-07-30T18:56:26+00:00">July 30, 2012</a></blockquote></div><blockquote class="twitter-tweet" data-conversation="none"><p>@<a href="https://twitter.com/andriyko">andriyko</a> Haha, finally? @<a href="https://twitter.com/netdnadeveloper">netdnadeveloper</a> had that shit out in like an hour :).</p>—Mark Otto (@mdo) <a href="https://twitter.com/mdo/status/263173412984344576">October 30, 2012</a></blockquote><blockquote class="twitter-tweet"><p>BootstrapCDN killed it in 2012. Check out their data from the year in review for serving up Bootstrap: <a href="http://t.co/DaOU2uEJ" title="http://blog.netdna.com/opensource/bootstrapcdn/bootstrapcdn-2012-year-in-review/">blog.netdna.com/opensource/boo…</a></p>—Twitter Bootstrap (@twbootstrap) <a href="https://twitter.com/twbootstrap/status/287063373177307136">January 4, 2013</a></blockquote><blockquote class="twitter-tweet"><p>Wow, that was fast. Font Awesome 3.0 is now up on CDN. Thanks, @<a href="https://twitter.com/netdnadeveloper">netdnadeveloper</a>! <a href="http://t.co/d7PzoQH2" title="http://bit.ly/UkT0IS">bit.ly/UkT0IS</a></p>—Fort Awesome (@fortaweso_me) <a href="https://twitter.com/fortaweso_me/status/286569664862109696">January 2, 2013</a></blockquote><div><blockquote class="twitter-tweet"><p><a href="http://t.co/GYVUGWg7" title="http://www.bootstrapcdn.com/">bootstrapcdn.com</a> nice to see a CDN like NetDNA take these kind of initiatives</p>—CDN Planet (@cdnplanet) <a href="https://twitter.com/cdnplanet/status/213008798707744768" data-datetime="2012-06-13T20:43:49+00:00">June 13, 2012</a></blockquote></div>
+	   </div>
       </div>
     </div>
 
@@ -257,6 +210,23 @@
         <p><a href="https://twitter.com/mdo">&lt;3 @mdo</a></p>
       </div>
     </div>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+	<script>
+// Select to Copy
+$("input:text").focus(function(){$(this).select();$(this).mouseup(function(a){a.preventDefault()})});
 
+// Javascript to enable link to tab
+var hash = document.location.hash;
+var prefix = "tab_";
+if (hash) {
+    $('.nav-tabs a[href='+hash.replace(prefix,"")+']').tab('show');
+} 
+// Change hash for page-reload
+$('.nav-tabs a').on('shown', function (e) {
+    window.location.hash = e.target.hash.replace("#", "#" + prefix);
+});
+</script>
   </body>
 </html>
